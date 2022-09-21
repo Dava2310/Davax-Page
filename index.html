@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home page</title>
+        
+        <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+        <script>
+            Weglot.initialize({
+                api_key: 'wg_28976d9033a59771246b029f255334ff4'
+            });
+        </script>
+    </head>
+    <body>
+
+            <!-- =========================== Content of the nav ====================== -->
+            <nav class="navbar navbar-expand-lg py-3 sticky-top navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Imagen1.png" alt="Davax Logo" style="width: 50px">
+                        <h2 class="dava">Davax's Page</h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+
+                            <li class="nav-item">
+                                <a id="nav1" class="nav-link" href="#">Home / About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav2" class="nav-link" href="#">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav3" class="nav-link" href="#">Universities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav4" class="nav-link" href="#">Tools</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav5" class="nav-link" href="#">JS tools</a>
+                            </li>
+                            <button class="btn btn-primary ms-lg-3">Trivia!</button>
+                            <button id="translateB" class="btn btn-success ms-lg-3">Spanish</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- ======================= Hero content =================================== -->
+            <div class="hero vh-100 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 mx-auto text-center">
+                            <h1 id="title" class="display-4">Learn about me and my Dev career!</h1>
+                            <p id="homeDesc" class="my-3">In this page, you will find many sections where you can learn about me personally and profesionally. Check the home page and the other items that you can find in the top navigation bar. If you don't understand english, let the button which says Spanish to translate the whole page.
+                            <br> <br>
+                            For last, don't forget to click these buttons below to check my GitHub portfolio and some test tools build in JS for this page. Enjoy!
+                            </p>
+                            <a id="heroBt1" href="#" class="btn btn-primary me-2">Check my GitHub portfolio!</a>
+                            <a id="heroBt2" href="#" class="btn btn-outline-light">Check some JS tools on my page!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===================== Personal information =========================== -->
+            <section class="row w-100 py-20 bg-light" id="Personal">
+                <div class="col-lg-6 col-img"></div>
+                <div class="col-lg-6 py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <h6 id="pregunta" class="text-primary">Who am I?</h6>
+                                <h1 id="nombreP">Daniel Vetencourt</h1>
+                                <p id="introP">Hey, my name is Daniel Vetencourt, known as well as Davax for my youtube channel. I am actually an Informatics TSU in the process of becoming an Engineer at that career and also in the Systems Engineering career. I would like you to know more about me, so checkout these 3 most important things that I pointed for you!</p>
+                                <div class="feature d-flex mt-5">
+                                    <div class="iconbox me-3">
+                                        <i class="bx bx-face"></i>
+                                    </div>
+                                    <div>
+                                        <h5 id="infoP">Personal Information</h5>
+                                        <p id="descP">I was born in Venezuela and still live there. I am 20 years old since my birth is 23th October of 2001. I am the last kid of 2 on my house. Since kid I loved using PC's, and at the age of 13 I had my first own PC for videogames. That's when my passion about computer actually developed.</p>
+                                    </div>
+                                </div>
+                                <div class="feature d-flex">
+                                    <div class="iconbox me-3">
+                                        <i class="bx bxs-graduation"></i>
+                                    </div>
+                                    <div>
+                                        <h5>Studies Background</h5>
+                                        <p>My background of school was in an school called: "UEP Morichal" and from the age of 13 to 16, I was in a highschool called: "CELAM". Then, I started studying Informatics Engineering at Juanary 2019 when I was 17 years old, and in October of the same year, started studying Systems Engineering at a different universities. If you want to know more of them, click here!</p>
+                                    </div>
+                                </div>
+                                <div class="feature d-flex">
+                                    <div class="iconbox me-3">
+                                        <i class="bx bx-bullseye"></i>
+                                    </div>
+                                    <div>
+                                        <h5>Hobbies</h5>
+                                        <p>Other than studying, I like to play videogames as Minecraft, Osu! and League of Legends. I like to make YouTube videos in my channel. And in sometimes, I like to hang out with my girlfriend or other persons including my family.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================================== Projects =============================== -->
+            <section id="projects" style="padding-bottom: 0;">
+                <div class="container-fluid">
+                    <div class="row mb-5">
+                        <div class="col-md-8 mx-auto text-center">
+                            <h6 class="text-primary">PROJECTS</h6>
+                            <h1>My Recents Important Projects</h1>
+                            <p>Here, you will found some of the projects that I have developed (most of them in a group of persons) for communities and other personal projects for my own that are related to my career. The projects that are programmed in code will have its link to my GitHub repository so if you want to check them more on detail, be free to do so! :D</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                            <img src="img/LOGOTIPO SARP+.png" alt="SARP+">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">Project Title</h4>
+                                    <h6 class="text-white">Website Desing</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                            <img src="img/ICONO SARP.png" alt="SARP">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">Project Title</h4>
+                                    <h6 class="text-white">Website Desing</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                            <img src="img/LogoWix-1.png" alt="SARP+">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">Project Title</h4>
+                                    <h6 class="text-white">Website Desing</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                            <img src="img/LogoWix-2.png" alt="SARP+">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">Project Title</h4>
+                                    <h6 class="text-white">Website Desing</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                            <img src="img/project3.jpg" alt="SARP+">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">Project Title</h4>
+                                    <h6 class="text-white">Website Desing</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                            <img src="img/project4.jpg" alt="SARP+">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">Project Title</h4>
+                                    <h6 class="text-white">Website Desing</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========================== Contact me ========================== -->
+            <section id="contact">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-8 mx-auto text-center">
+                            <h6 class="text-primary">CONTACT</h6>
+                            <h1>Get in Touch</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error earum ea qui eligendi, animi, asperiores deserunt perspiciatis hic fugiat consequatur veritatis reiciendis odio quae eum fugit eos, libero esse?</p>
+                        </div>
+                    </div>
+
+                    <form action="https://formsubmit.co/1d59e9209110b4ec5a410c4d9e80e974" method="POST" class="row g-3 justify-content-center">
+                        <div class="col-md-4">
+                            <input name="name" id="name" type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="col-md-3">
+                            <input name="email" id="email" type="text" class="form-control" placeholder="Enter E-mail">
+                        </div>
+                        <div class="col-md-3">
+                            <input name="phone" id="phone" type="text" class="form-control" placeholder="Enter Phone number">
+                        </div>
+                        <div class="col-md-10">
+                            <input id="subject" type="text" class="form-control" placeholder="Enter subject">
+                        </div>
+                        <div class="col-md-10">
+                            <textarea  name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Enter Message"></textarea>
+                        </div>
+                        <div class="col-md-10 d-grid">
+                            <button type="submit" class="btn btn-primary">Contact / Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- =========================== Footer content ========================== -->
+            <footer>
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row gy-4">
+                            <div class="col-md-4">
+                                <img id="footerLogo" src="img/Imagen1.png" alt="">
+                                <h2 id="davaFooter" class="dava text-white">Davax's Page</h2>
+                            </div>
+                            <div class="col-md-2">
+                                <h5 class="text-white">Page content</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Header</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About me</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact me</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <h5 class="text-white">Social Media</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Facebook</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Instagram</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">YouTube</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">GitHub</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="text-white">Contact information</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Email: dvetencourt23@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Country: Venezuela</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Phone Number: +58 424-933-4420</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+        </div>
+        <script src="translate.js"></script>
+    </body>
+</html>
