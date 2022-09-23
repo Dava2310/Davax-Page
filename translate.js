@@ -39,6 +39,32 @@ const translateF = () => {
     let descP = document.getElementById('descP');
     descP.innerHTML = 'Yo nací en Venezuela y aún vivo allí. Tengo 20 años ya que mi nacimiento fue el 23 de Octubre del 2001. Soy el último hijo de 2 en mi casa. Desde que era un niño amaba las computadoras, y a la edad de 13 años tuve mi primera computadora personal para jugar videojuegos. Allí fue cuando mi pasión por las computadoras verdaderamente empezó.'
 
+    let infoS = document.getElementById('infoS');
+    infoS.innerHTML = 'Historial de Estudios';
+
+    let descS = document.getElementById('descS');
+    descS.innerHTML = 'Mis estudios empezaron en una escuela llamada: "UEP Morichal" y desde la edad de 13 a 16 años, estaba en una secundaria llamada: "CELAM". Después, empecé a estudiar Ingeniería en Informática en enero del 2019 cuando tenía 17 años, y en octubre del mismo año empecé a estudair Ingeniería en Sistemas en una diferente universidad. Si quieres saber más de ellas, ¡Haz click aquí!';
+
+    let descH = document.getElementById('descH');
+    descH.innerHTML = 'Además de estudiar, me gusta jugar videojuegos como Minecraft, Osu! y League of Legends. Me gusta hacer vídeos de YouTube en mi canal. Y me gusta salir de vez en cuando con mi novia y otras personas incluyendo a mi familia';
+
+    let headerProjects = document.getElementById('headerProjects');
+    headerProjects.innerHTML = 'PROYECTOS';
+
+    let recentProjects =  document.getElementById('recentProjects');
+    recentProjects.innerHTML = 'Mis importantes proyectos recientes';
+
+    let descProjects = document.getElementById('descProjects');
+    descProjects.innerHTML = 'Aquí podrás encontrar algunos de los proyectos que he desarrollado (la mayoría de ellos en un grupo de personas) para comunidades y otros proyectos personales de mi propiedad que están relacionados a mi carrera. Los proyectos que están programados en código tendrán su respectivo link a mi repositorio de GitHub así si quieres verlos en más detalles, ¡eres libre de hacerlo!';
+
+    let headerContact = document.getElementById('headerContact');
+    headerContact.innerHTML = 'CONTACTO';
+
+    let headerContact2 = document.getElementById('headerContact2');
+    headerContact2.innerHTML = 'Ponerse en contacto';
+
+    let descContact = document.getElementById('descContact');
+    descContact.innerHTML = 'Eres libre de contactarme a través de este formulario. Asegúarete de colocar tu correo y teléfono para que así pueda responderte tan pronto como sea posible.'
 }
 
 // Give an event to a button
